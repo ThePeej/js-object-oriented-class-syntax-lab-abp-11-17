@@ -20,8 +20,6 @@ class BoardMember {
   releasePressStatement() {
     return `You will see great things from Scuber.`;
   }
-  console.log(BoardMember);
-  debugger;
 
   sayHi() {
     ///console.log(`Hi, my name is ${name}. I am from homeState, and I was trained in training.`;)
