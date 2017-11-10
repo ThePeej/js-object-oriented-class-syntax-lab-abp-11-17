@@ -22,11 +22,11 @@ class BoardMember {
   }
   console.log(BoardMember);
   debugger;
-  
+
   sayHi() {
     ///console.log(`Hi, my name is ${name}. I am from homeState, and I was trained in training.`;)
 
-    return `Hi, my name is ${name}. I am from homeState, and I was trained in training.`
+    return `Hi, my name is ${this.name}. I am from homeState, and I was trained in training.`
   }
 }
 
