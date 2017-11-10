@@ -9,7 +9,19 @@ class BoardMember {
     return `No, I must disagree`;
   }
 
-  approve(){
-    
+  approve() {
+    return `You can do that!`;
+  }
+
+  doCharity() {
+    return `I like to help people.`;
+  }
+
+  releasePressStatement() {
+    return `You will see great things from Scuber`;
+  }
+
+  sayHi() {
+    `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`
   }
 }
